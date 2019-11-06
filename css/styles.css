@@ -18,7 +18,7 @@
   background-position: center;
   height: 100vh;
   padding-top: 3vh;
-  max-width: 100%;
+  width: 100%;
 }
 .imagetext {
   padding-top: 30vh;
@@ -45,6 +45,18 @@ form {
   margin-left: 49vw;
   background-color: rgb(97, 33, 22);
   color: white;
+  transform: rotateX(3.62758deg) rotateY(-5.2593deg);
+}
+
+.cont {
+  margin: auto;
+}
+
+/* styling about us section */
+.aboutus {
+  background: url(../assets/backgrounds/about.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 /* media queries */
@@ -54,11 +66,10 @@ form {
     padding-top: 24vw;
   }
 }
-
 /* // Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
   .mybtn {
-    margin-left: 100vw;
+    margin-left: 20vw;
   }
 }
 
