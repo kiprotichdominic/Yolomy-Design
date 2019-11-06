@@ -62,6 +62,9 @@ form {
   margin: auto;
 }
 
+.allproducts {
+  background-color: lightgrey;
+}
 /* styling about us section */
 .aboutus {
   background: url(../assets/backgrounds/about.jpg);
@@ -69,11 +72,18 @@ form {
   background-repeat: no-repeat;
   background-position: center;
   height: 30vh;
-  width: 100%;
+  max-width: 100%;
 }
 
 .SALE {
   background: darkgrey;
+}
+
+/* footer section */
+.myfooter {
+  height: 30vh;
+  background-color: darkgrey;
+  padding-bottom: 0%;
 }
 
 /* media queries */
